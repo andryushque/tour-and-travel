@@ -13,6 +13,12 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -29,36 +35,49 @@
             />
           </a>
 
-          <nav class="nav header__nav">
-            <ul class="header__list">
-              <li class="header__item">
-                <a href="#" class="header__link link">Home</a>
-              </li>
-              <li class="header__item">
-                <a href="#" class="header__link link">Destinations</a>
-              </li>
-              <li class="header__item">
-                <a href="#" class="header__link link">About</a>
-              </li>
-              <li class="header__item">
-                <a href="#" class="header__link link">Partner</a>
-              </li>
-            </ul>
-          </nav>
+          <div class="header__menu header__menu--hidden">
+            <nav class="nav header__nav">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a href="#" class="header__link link">Home</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__link link">Destinations</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__link link">About</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__link link">Partner</a>
+                </li>
+              </ul>
+            </nav>
 
-          <div class="header__buttons">
-            <button class="button header__button header__button--transparent">
-              Login
-            </button>
-            <button class="button header__button header__button--accent">
-              Register
-            </button>
+            <div class="header__buttons">
+              <button class="button header__button header__button--transparent">
+                Login
+              </button>
+              <button class="button header__button header__button--accent">
+                Register
+              </button>
+            </div>
           </div>
+
+          <button class="mmenuBtn button header__mmenuBtn">
+            <i class="mmenuBtn__icon mmenuBtn__icon--open fas fa-bars"></i>
+            <i
+              class="mmenuBtn__icon mmenuBtn__icon--close mmenuBtn__icon--hidden fas fa-times"
+            ></i>
+          </button>
         </div>
         <!-- /.header-wrapper -->
       </div>
       <!-- /.container-lg -->
     </header>
     <!-- /.header -->
+
+    <!-- Подключение JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
