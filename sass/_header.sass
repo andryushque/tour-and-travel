@@ -45,22 +45,17 @@
   &__button
     min-width: 132px
     min-height: 44px
-    border: 2px solid $accent
     font-family: 'Inter', Helvetica, sans-serif
     &--transparent
       margin-right: 18px
+      border: 2px solid $accent
       color: $accent
       &:hover
         background-color: $accent
         color: $light-primary
         transition: background-color 0.3s ease, color 0.3s ease
     &--accent
-      background-color: $accent
-      color: $light-primary
-      &:hover
-        background-color: $light-primary
-        color: $accent
-        transition: background-color 0.3s ease, color 0.3s ease
+      @include button-accent
 
   &__mmenuBtn
     display: none
