@@ -1,0 +1,47 @@
+.infoblock
+  padding-bottom: 270px
+  &-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+  &__content
+    width: 50%
+    &--right
+      padding-left: 100px
+    &--left
+      padding-right: 100px
+  &__image
+    width: 50%
+    max-width: 600px
+    height: auto
+
+  &__title
+    margin-bottom: 20px
+    font-size: 36px
+    line-height: 50px
+    color: $dark-primary
+  &__text
+    margin-top: 0
+    margin-bottom: 35px
+    font-family: 'Muli', sans-serif
+    font-style: normal
+    font-weight: 300
+    font-size: 17px
+    line-height: 30px
+    color: $grey-primary
+  &__button
+    width: 164px
+    height: 48px
+    font-family: 'Inter', Helvetica, sans-serif
+    font-style: normal
+    font-weight: 600
+    font-size: 16px
+    line-height: 60px
+    border: 2px solid $accent
+    color: $light-primary
+    background-color: $accent
+    &:hover
+      background-color: $light-primary
+      color: $accent
+      transition: background-color 0.3s ease, color 0.3s ease
