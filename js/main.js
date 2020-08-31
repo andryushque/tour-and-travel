@@ -12,6 +12,7 @@ $(document).ready(function () {
   var testimonialsSwiper = new Swiper(".testimonials-slider", {
     loop: true,
     slidesPerView: "1",
+    autoHeight: true,
 
     navigation: {
       nextEl: ".testimonials__button--next",
