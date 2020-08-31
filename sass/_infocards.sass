@@ -1,0 +1,68 @@
+.infocards
+  padding-top: 35px
+  padding-bottom: 170px
+  &-wrapper
+    position: relative
+    padding-bottom: 70px
+  &__title
+    margin-bottom: 56px
+    font-size: 36px
+    line-height: 50px
+    color: $dark-primary
+  &__link
+    position: absolute
+    top: 0
+    right: 0
+    z-index: 10
+    font-family: 'Inter', Helvetica, sans-serif
+    font-style: normal
+    font-weight: 600
+    font-size: 17px
+    line-height: 60px
+    color: $accent
+    .fas
+      margin-left: 11px
+    &:hover
+      text-decoration: underline
+
+  &__cards
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+  &__card
+    position: relative
+    width: 23%
+    height: 337px
+    border-radius: 8px
+    overflow: hidden
+  &__image
+    width: auto
+    height: 100%
+    object-fit: cover
+  &__tag
+    position: absolute
+    bottom: 0
+    left: 0
+    z-index: 10
+    display: flex
+    flex-wrap: wrap
+    flex-direction: column
+    padding: 11px 22px 5px 0
+    background: $light-primary
+    border-radius: 0px 6px 0px 0px
+    font-family: 'Inter', Helvetica, sans-serif
+    font-style: normal
+  &__name
+    margin-bottom: 5px
+    font-weight: 600
+    font-size: 17px
+    line-height: 25px
+    color: #042521
+    word-break: break-word
+  &__place
+    font-weight: 500
+    font-size: 15px
+    line-height: 24px
+    color: #80918E
+    word-break: break-word
