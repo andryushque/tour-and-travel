@@ -1,0 +1,83 @@
+.testimonials
+  padding-bottom: 200px
+  &-wrapper
+    position: relative
+  &__title
+    margin-bottom: 60px
+    font-size: 36px
+    line-height: 50px
+    color: $dark-primary
+  &__item
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__content
+    width: 50%
+  &__image
+    max-width: 50%
+    height: 491px
+    width: 384px
+    border-radius: 14px
+    overflow: hidden
+  &__photo
+    height: 100%
+    width: 100%
+    object-fit: cover
+  &__rating
+    margin-bottom: 30px
+    .fas
+      margin-right: 8px
+      font-size: 18px
+      color: #FFBB0C
+  &__text
+    max-width: 450px
+    margin-top: 0
+    margin-bottom: 40px
+    font-family: 'Muli', sans-serif
+    font-style: normal
+    font-weight: normal
+    font-size: 24px
+    line-height: 36px
+    color: $dark-primary
+    word-break: break-word
+  &__name
+    display: block
+    font-style: normal
+    font-weight: bold
+    font-size: 22px
+    line-height: 48px
+    color: $dark-primary
+    word-break: break-word
+  &__profession
+    display: block
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 48px
+    color: rgba($dark-primary, 0.85)
+    word-break: break-word
+
+  &__buttons
+    position: absolute
+    bottom: 0
+    right: 0
+    z-index: 10
+    display: flex
+    padding: 20px 0 0 30px
+    background-color: $light-primary
+    border-radius: 16px 0px 0px 0px
+  &__button
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 40px
+    height: 40px
+    border-radius: 50%
+    border: 2px solid #D7D7D7
+    color: #D7D7D7
+    &--prev
+      margin-right: 22px
+    &:hover
+      color: $dark-primary
+      border: 2px solid $dark-primary
+      transition: color 0.3s ease, border 0.3s ease

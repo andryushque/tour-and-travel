@@ -19,6 +19,7 @@
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -232,8 +233,97 @@
     </section>
     <!-- /.infoblock (2)-->
 
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonials-wrapper">
+          <h2 class="testimonials__title title">Testimonials</h2>
+
+          <div class="swiper-container testimonials-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonials__item">
+                  <div class="testimonials__content">
+                    <div class="testimonials__rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonials__text">
+                      “Quisque in lacus a urna fermentum euismod. Integer mi
+                      nibh, dapibus ac scelerisque eu, facilisis quis purus.
+                      Morbi blandit sit amet turpis nec”
+                    </p>
+                    <span class="testimonials__name">Edward Newgate</span>
+                    <span class="testimonials__profession">Founder Circle</span>
+                  </div>
+                  <!-- /.testimonials__content -->
+                  <div class="testimonials__image">
+                    <img
+                      src="images/testimonials/review-01.png"
+                      alt="Photo: Edward Newgate"
+                      class="testimonials__photo"
+                    />
+                  </div>
+                  <!-- /.testimonials__image -->
+                </div>
+                <!-- /.testimonials__item -->
+              </div>
+              <!-- /.swiper-slide -->
+              <div class="swiper-slide">
+                <div class="testimonials__item">
+                  <div class="testimonials__content">
+                    <div class="testimonials__rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonials__text">
+                      “Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Iure sed omnis corporis dolore eveniet illo cupiditate
+                      earum ex! Possimus omnis atque corrupti?”
+                    </p>
+                    <span class="testimonials__name">Norman Jackson</span>
+                    <span class="testimonials__profession">Web Developer</span>
+                  </div>
+                  <!-- /.testimonials__content -->
+                  <div class="testimonials__image">
+                    <img
+                      src="images/testimonials/review-02.png"
+                      alt="Photo: Norman Jackson"
+                      class="testimonials__photo"
+                    />
+                  </div>
+                  <!-- /.testimonials__image -->
+                </div>
+                <!-- /.testimonials__item -->
+              </div>
+              <!-- /.swiper-slide -->
+            </div>
+            <!-- /.swiper-wrapper -->
+          </div>
+
+          <div class="testimonials__buttons">
+            <div class="button testimonials__button testimonials__button--prev">
+              <i class="fas fa-angle-left"></i>
+            </div>
+            <div class="button testimonials__button testimonials__button--next">
+              <i class="fas fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+        <!-- /.testimonials-wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.testimonials -->
+
     <!-- Подключение JS -->
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

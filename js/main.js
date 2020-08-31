@@ -7,4 +7,19 @@ $(document).ready(function () {
     $(".mmenuBtn__icon--open").toggleClass("mmenuBtn__icon--hidden");
     $(".mmenuBtn__icon--close").toggleClass("mmenuBtn__icon--hidden");
   });
+
+  /*=== Testimonials Slider ===*/
+  var testimonialsSwiper = new Swiper(".testimonials-slider", {
+    loop: true,
+    slidesPerView: "1",
+
+    navigation: {
+      nextEl: ".testimonials__button--next",
+      prevEl: ".testimonials__button--prev",
+    },
+
+    keyboard: {
+      enabled: true,
+    },
+  });
 });
