@@ -1,0 +1,73 @@
+.stories
+  padding-bottom: 270px
+  &-wrapper
+    position: relative
+  &__title
+    max-width: 75%
+    margin-bottom: 56px
+    font-size: 36px
+    line-height: 50px
+    color: $dark-primary
+  &__link
+    position: absolute
+    top: 0
+    right: 0
+    z-index: 10
+    max-width: 25%
+    font-family: 'Inter', Helvetica, sans-serif
+    font-style: normal
+    font-weight: 600
+    font-size: 17px
+    line-height: 60px
+    color: $accent
+    .fas
+      margin-left: 11px
+    &:hover
+      text-decoration: underline
+
+  &__cards
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+  &__card
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 23%
+    min-height: 446px
+    border-radius: 8px
+    overflow: hidden
+  &__image
+    width: 100%
+    max-width: 260px
+    height: 230px
+    object-fit: cover
+  &__cardtitle
+    margin-top: 13px
+    margin-bottom: 13px
+    font-style: normal
+    font-weight: bold
+    font-size: 19px
+    line-height: 30px
+    color: $dark-primary
+    word-break: break-word
+  &__text
+    margin-top: 0
+    margin-bottom: 23px
+    font-style: normal
+    font-weight: normal
+    font-size: 15px
+    line-height: 26px
+    color: $grey-primary
+    word-break: break-word
+  &__cardlink
+    margin-top: auto
+    font-family: Inter
+    font-style: normal
+    font-weight: 600
+    font-size: 15px
+    line-height: 28px
+    color: $accent
+    &:hover
+      text-decoration: underline
